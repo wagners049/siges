@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Cadastro">
+    <icon>fas:book fa-fw </icon>
+    <menu>
+      <menuitem label="Padrão">
+        <icon>fas:cog fa-fw </icon>
+        <menu>
+          <menuitem label="Estados">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesEstadosList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Mesorregiões">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesMesorregiaoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Microrregiões">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesMicrorregiaoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Cidades">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesCidadesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="IDHM">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesCidadesIdhList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Faixa IDH">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesFaixaIdhList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipos de instituição">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesTiposInstituicaoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipos de contato">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesTipoContatoList#method=onShow</action>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Siges">
+        <icon>fas:child fa-fw </icon>
+        <menu>
+          <menuitem label="Instituições">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesInstituicaoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Regiões Esportivas">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesRegioesEsportivasList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Nível de Escolaridade">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesNivelEscolariadeList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Séries">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesSerieEscolarList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Modalidades">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesModalidadesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="IDEB">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesIdebList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipos de Séries">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesTipoSerieList#method=onShow</action>
+          </menuitem>
+        </menu>
+      </menuitem>
+      <menuitem label="Sociodemográfico">
+        <icon>fas:users fa-fw </icon>
+        <menu>
+          <menuitem label="Zonas">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesZonaMunicipioList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tipo de Moradias">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesTipoMoradiaList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Opções de Moradores">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesMoradoresCasaList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Responsáveis competição">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesResponsaveisCompeticoesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Participação Outras Competições">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesParticipaOutrasCompeticoesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Espaço de Treinos">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesEspacoTreinoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Dificuldades">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesDificuldadesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Apoio Responsáveis">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesApoioResponsavelList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Apoio - Bolsas">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesApoioBolsaList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Momento de Treino">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesMomentoTreinoList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Tempo Competições">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesTempoCompeticoesList#method=onShow</action>
+          </menuitem>
+          <menuitem label="Siges racas">
+            <icon>far:circle fa-fw </icon>
+            <action>SigesRacaList#method=onShow</action>
+          </menuitem>
+        </menu>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Usuários">
+    <icon>fas:user fa-fw </icon>
+    <menu>
+      <menuitem label="Atletas">
+        <icon>fas:child fa-fw </icon>
+        <action>SigesUserList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Análises do Atleta">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesAtletasAnalisesList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Modalidades">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesAtletasModalidadesList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Antropometria">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesAtletasAntropometriaList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Pesquisas">
+    <icon>far:file-alt fa-fw </icon>
+    <menu>
+      <menuitem label="Pesquisas">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesPesquisasList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Sociodemográfico">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesSociodemograficoList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Relatórios">
+    <icon>far:file-alt fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Gráficos">
+    <icon>fas:chart-pie fa-fw </icon>
+    <menu>
+      <menuitem label="Modalidades">
+        <icon>far:circle fa-fw </icon>
+        <action>SigesAtletasModalidadesChart#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <icon>fas:tachometer-alt fa-fw</icon>
+        <action>SystemAdministrationDashboard</action>
+      </menuitem>
+      <menuitem label="_t{Programs}">
+        <icon>far:file-code fa-fw</icon>
+        <action>SystemProgramList</action>
+      </menuitem>
+      <menuitem label="_t{Groups}">
+        <icon>fas:users fa-fw</icon>
+        <action>SystemGroupList</action>
+      </menuitem>
+      <menuitem label="_t{Units}">
+        <icon>fas:university fa-fw</icon>
+        <action>SystemUnitList</action>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <icon>fas:user fa-fw</icon>
+        <action>SystemUserList</action>
+      </menuitem>
+      <menuitem label="_t{Database explorer}">
+        <icon>fas:database fa-fw</icon>
+        <action>SystemDatabaseExplorer</action>
+      </menuitem>
+      <menuitem label="_t{SQL Panel}">
+        <icon>fas:table fa-fw</icon>
+        <action>SystemSQLPanel</action>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <icon>far:edit fa-fw</icon>
+        <action>SystemMenuEditor</action>
+      </menuitem>
+      <menuitem label="PHP Info">
+        <icon>fas:info-circle fa-fw</icon>
+        <action>SystemPHPInfoView</action>
+      </menuitem>
+      <menuitem label="_t{Preferences}">
+        <icon>fas:cog fa-fw</icon>
+        <action>SystemPreferenceForm#method=onEdit</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Documents}">
+    <icon>far:file-alt fa-fw</icon>
+    <menu>
+      <menuitem label="_t{Send document}">
+        <icon>fas:cloud-upload-alt fa-fw</icon>
+        <action>SystemDocumentUploadForm</action>
+      </menuitem>
+      <menuitem label="_t{My documents}">
+        <icon>fas:archive fa-fw</icon>
+        <action>SystemDocumentList</action>
+      </menuitem>
+      <menuitem label="_t{Shared with me}">
+        <icon>fas:share-alt fa-fw</icon>
+        <action>SystemSharedDocumentList</action>
+      </menuitem>
+      <menuitem label="_t{Categories}">
+        <icon>fas:th fa-fw</icon>
+        <action>SystemDocumentCategoryFormList</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logs">
+    <icon>fas:desktop fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <icon>fas:tachometer-alt fa-fw</icon>
+        <action>SystemLogDashboard</action>
+      </menuitem>
+      <menuitem label="_t{Access Log}">
+        <icon>fas:key fa-fw</icon>
+        <action>SystemAccessLogList</action>
+      </menuitem>
+      <menuitem label="_t{Change Log}">
+        <icon>fas:film fa-fw</icon>
+        <action>SystemChangeLogView</action>
+      </menuitem>
+      <menuitem label="_t{SQL Log}">
+        <icon>fas:database fa-fw</icon>
+        <action>SystemSqlLogList</action>
+      </menuitem>
+      <menuitem label="_t{Request Log}">
+        <icon>fas:globe fa-fw</icon>
+        <action>SystemRequestLogList</action>
+      </menuitem>
+      <menuitem label="_t{PHP Log}">
+        <icon>fas:exclamation-triangle fa-fw</icon>
+        <action>SystemPHPErrorLogView</action>
+      </menuitem>
+      <menuitem label="Session dump">
+        <icon>fas:code fa-fw</icon>
+        <action>SystemSessionDumpView</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logout">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <action>LoginForm#method=onLogout#static=1</action>
+  </menuitem>
+</menu>
